@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A STOP WATCH</title>
+		<meta name="description" content="a simple stop watch">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keyword" content="stop watch project">
+		<link rel="stylesheet" type="text/css" href="stopWatch.css">
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div class="center">
+
+				<div class="main-flex">
+
+					<div class="first-main-flex">
+
+						<p>HOUR</p>
+
+						<div id="hour">0</div>
+
+						<button id="play" onclick="play()">play</button>
+
+					</div>
+
+					<div class="second-main-flex">
+
+						<p style="color:orange;">MINUTE</p>
+
+						<div id="minute">0</div>
+
+						<button id="pause" onclick="pause()">pause</button>
+
+					</div>
+
+					<div class="third-main-flex">
+
+						<p>SECOND</p>
+
+						<div id="second">0</div>
+
+						<button id="reset" onclick="reset()">reset</button>
+
+					</div>
+
+				</div>
+				
+			</div>
+
+		</div>
+			<script src="stopWatch.js"></script>
+	</body>
+</html>
